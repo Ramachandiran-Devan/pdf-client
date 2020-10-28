@@ -1,0 +1,33 @@
+body{
+    background: rgb(4, 40, 87);
+    height:660px;
+    overflow-x: hidden;
+    
+}
+h3{
+    padding-top:10px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(7, 148, 77);
+}
+h5{
+    padding-top:10px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(31, 192, 255);
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.btn{
+    margin-right:110px;
+}
+#txt{
+    font-weight:800;
+    font-size:medium;
+}

@@ -23,10 +23,16 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            "styles": [  
+              "src/styles.css",  
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css" ,
+              "node_modules/ngx-toastr/toastr.css"
+            ],  
+            "scripts": [              
+              "./node_modules/jquery/dist/jquery.min.js",  
+              "./node_modules/popper.js/dist/umd/popper.min.js",  
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"  
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pdf-converter"
+    }
+  },
+  "defaultProject": "pdf-converter",
+  "cli": {
+    "analytics": "4bdb9067-2be3-4d7f-b584-1f8ae7398b4d"
+  }
 }
